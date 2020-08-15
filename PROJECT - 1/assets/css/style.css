@@ -1,0 +1,66 @@
+/* Tambahkan logo pada judul website*/
+
+/* Styling bagian Body*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5; /* Optional */
+  text-align: center;
+  text-shadow: 0px 1px 3px black;
+  background-color: #fafe09;
+}
+
+/* Styling bagian Bagian Main*/
+#profile {
+  padding: 65px;
+  background-color: blue;
+  background-image: url(https://www.gettyimages.pt/gi-resources/images/Homepage/Hero/PT/PT_hero_42_153645159.jpg);
+}
+
+#profile img {
+  height: 350px;
+  border-radius: 50%;
+  padding-left: 600px;
+}
+
+#content {
+  width: 55%;
+  margin: 0 auto;
+}
+
+#skills {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #ddd;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  padding: 20px;
+}
+
+/* Optional */
+.card-body h3 {
+  margin-top: 0;
+}
+/* Optional */
+
+hr {
+  margin: 65px;
+}
+
+/* Styling Bagian Footer */
+footer {
+  padding: 30px;
+}
+
+footer a {
+  margin: 0 20px;
+}
